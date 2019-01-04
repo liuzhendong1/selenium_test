@@ -21,7 +21,7 @@ public class TestLogin {
 		wd.findElement(By.name("userName")).sendKeys("15803855631");
 		wd.findElement(By.name("password")).sendKeys("md15238783879");
 		wd.findElement(By.id("TANGRAM__PSP_10__submit")).click();
-		Thread.sleep(2000);
+		Thread.sleep(6000);
 		wd.findElement(By.id("TANGRAM__36__button_send_mobile")).click();
 		Thread.sleep(25000);
 		wd.findElement(By.id("TANGRAM__36__button_submit")).click();
